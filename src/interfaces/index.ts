@@ -1,19 +1,5 @@
-export interface IUser {
-  id?: number,
-  username: string,
-  classe: string,
-  level: number,
-  password: string,
-}
+import IUser from './user.interface';
+import IProduct from './product.interface';
+import IOrder from './order.interface';
 
-export interface IOrder {
-  id: number,
-  userId: number,
-}
-
-export interface IProduct {
-  id?: number,
-  name: string,
-  amount: string,
-  orderId?: number,
-}
+export { IUser, IProduct, IOrder };

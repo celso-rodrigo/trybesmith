@@ -10,4 +10,9 @@ productsRouter.get(
   (req, res) => productsController.getAllProducts(req, res),
 );
 
+productsRouter.post(
+  '/',
+  (req, res) => productsController.saveProduct(req, res),
+);
+
 export default productsRouter;
