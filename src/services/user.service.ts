@@ -1,4 +1,4 @@
-import UserModel from '../models/user.movel';
+import UserModel from '../models/user.model';
 import { IUser } from '../interfaces';
 
 export default class UserService {
