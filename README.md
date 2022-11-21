@@ -1,13 +1,74 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+<h1>Trybesmith</h1>
+<p>Este projeto foi desenvolvido em novembro de 2022 durante meus estudos na <a href="https://www.betrybe.com/">Trybe</a>.</p>
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+<br/>
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+<h2>O quê foi desenvolvido</h2>
+<p>Foi desenvolvido um CRUD (Create, Read, Update e Delete) de itens medievais, no formato de uma API, utilizando Typescript.<p>
+<br/>
+  
+<h2>O quê foi avaliado</h2>
+<ul>
+  <li>Declaração de variáveis e funções com tipagens Typescript;</li>
+  <li>Construção de uma API Node Express utilizando o Typescript.</li>
+</ul>
+
+<br/>
+
+<h2>Endpoints</h2>
+
+ <h3>/login</h3>
+
+| Método | Função | Corpo |
+|---|---|---|
+|POST| Realiza login e retorna o token | { "username": string, "password": string } |
+
+<hr />
+<h3>/products</h3>
+
+| Método | Função | Corpo |
+|---|---|---|
+|GET| Busca produtos |  |
+
+| Método | Função | Corpo |
+|---|---|---|
+|POST| Cadastra produto | { "name": string, "amount": string }|
+
+<hr />
+<h3>/users</h3>
+
+| Método | Função | Corpo |
+|---|---|---|
+|POST| Cadastra usuário | { "username": string, "classe": string, "level": number, "password": string } |
+
+<hr />
+<h3>/orders</h3>
+
+| Método | Função | Corpo |
+|---|---|---|
+|GET| Lista pedidos | |
+
+| Método | Função | Corpo |
+|---|---|---|
+|POST| Cadastra pedidos | { "productsIds": arrayOfNumbers } |
+
+<br/>
+
+<h2>Guia de instalação</h2> 
+<ol>
+  <li>
+    <p>Clone o repositório</p>
+    <pre>git clone git@github.com:celso-rodrigo/trybesmith.git</pre>
+  </li>
+  <li>
+    <p>Abra a pasta do repositório</p>
+  </li>
+  <li>
+    <p>Instale as dependências</p>
+    <pre>npm install</pre>
+  </li>
+  <li>
+    <p>Inicie o projetot</p>
+    <pre>npm start</pre>
+  </li>
+</ol>
