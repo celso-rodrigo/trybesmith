@@ -29,12 +29,9 @@
 | Método | Função | Corpo |
 |---|---|---|
 |GET| Busca produtos |  |
-
-| Método | Função | Corpo |
-|---|---|---|
 |POST| Cadastra produto | { "name": string, "amount": string }|
 
-<hr />
+<hr/>
 <h3>/users</h3>
 
 | Método | Função | Corpo |
@@ -47,9 +44,6 @@
 | Método | Função | Corpo |
 |---|---|---|
 |GET| Lista pedidos | |
-
-| Método | Função | Corpo |
-|---|---|---|
 |POST| Cadastra pedidos | { "productsIds": arrayOfNumbers } |
 
 <br/>
